@@ -1,0 +1,17 @@
+{
+	"name": "pl_pipleline_1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait for a second",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
